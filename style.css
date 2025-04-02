@@ -1,0 +1,231 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 2rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  margin-top: 2rem;
+  box-shadow: 1px 1px 1px black;
+}
+.right {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 4rem;
+}
+.right a {
+  text-decoration: none;
+  color: black;
+}
+.homepage {
+  background-image: url(./evgeni-tcherkasski-eALgIl0Cm-A-unsplash.jpg);
+  width: 100%;
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 3rem;
+  flex-direction: column;
+}
+.homepage h1 {
+  font-size: 80px;
+  text-transform: uppercase;
+  color: white;
+}
+.homepage p {
+  color: white;
+  text-align: center;
+}
+.homepage .btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+.btn button:first-child {
+  padding: 20px;
+  background-color: yellow;
+  border-radius: 50px;
+  font-weight: bolder;
+}
+.btn button:last-child {
+  padding: 20px;
+  background-color: transparent;
+  border-radius: 50px;
+  font-weight: bolder;
+  color: white;
+  border: 2px white solid;
+  font-weight: bolder;
+  text-shadow: 2px 2px 2px black;
+}
+.first {
+  width: 300px;
+  background-color: white;
+  border: 1px solid black;
+  padding: 2rem;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 2rem;
+}
+.second {
+  width: 300px;
+  background-color: white;
+  border: 1px solid black;
+  padding: 2rem;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 2rem;
+}
+.third {
+  width: 300px;
+  background-color: white;
+  border: 1px solid black;
+  padding: 2rem;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 2rem;
+}
+.four {
+  width: 300px;
+  background-color: white;
+  border: 1px solid black;
+  padding: 2rem;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 2rem;
+}
+.grid {
+  position: absolute;
+  top: 700px;
+  left: 100px;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  grid-template-columns: auto auto auto auto;
+  gap: 2rem;
+}
+.first .fas {
+  color: rgba(83, 82, 82, 0.933); /* Any color you want */
+}
+.second .fa-solid {
+  color: rgba(83, 82, 82, 0.933); /* Any color you want */
+}
+.third .fa-solid {
+  color: rgba(83, 82, 82, 0.933); /* Any color you want */
+}
+.four .fa-solid {
+  color: rgba(83, 82, 82, 0.933); /* Any color you want */
+}
+.about {
+  background-image: url(./WhatsApp\ Image\ 2025-04-02\ at\ 09.12.23_95eeb91c.jpg);
+  width: 100%;
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  position: absolute;
+  margin-top: 20%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 3rem;
+}
+.text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 2rem;
+  background-color: white;
+  padding: 2rem;
+  position: absolute;
+  top: 85%;
+}
+
+.text h1 {
+  font-size: 70px;
+  text-align: center;
+}
+.about .text p {
+  margin: 10px;
+  text-align: center;
+  font-size: 20px;
+}
+.btn1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.btn1 button {
+  padding: 20px;
+  border: 1px solid yellow;
+  border-radius: 50px;
+  background-color: yellow;
+  font-weight: bolder;
+}
+center {
+  display: block;
+  font-size: 65px;
+  font-weight: bold;
+  margin-top: 85%;
+  padding: 40px;
+}
+.sec {
+  text-align: center;
+  padding: 50px 20px;
+  margin-left: 20%;
+  margin-right: 20%;
+  background-color: #f8f8f8;
+}
+.division {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+  max-width: 200%;
+  margin: auto;
+}
+.d1 {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  background: white;
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+i {
+  font-size: 24px;
+  color: #f4b400; /* Yellow color */
+}
+
+.value h3 {
+  font-size: 18px;
+  margin: 0;
+}
+
+.value p {
+  font-size: 14px;
+  color: #666;
+}
